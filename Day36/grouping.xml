@@ -1,0 +1,13 @@
+<suite name="my suite">
+<test name="my tests">
+<groups>
+<run>
+<include name="regression"/>
+<exclude name="sanity"/>
+</run>
+</groups>
+<classes>
+<class name="Day36.Grouping"/>
+</classes>
+</test>
+</suite>
